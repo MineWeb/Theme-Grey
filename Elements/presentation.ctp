@@ -17,21 +17,21 @@
 			</div>
 			<div class="col-md-3 box-presentation">
 				<div class="icon-presentation">
-					<i class="<?= $theme_config['icon2'] ?>"></i>
+					<i class="<?= $theme_config['icon-1'] ?>"></i>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sapiente voluptatibus, repudiandae ducimus. Voluptates aliquam nostrum quia architecto delectus quae.</p>
+				<p><?= $theme_config['desc-1'] ?></p>
 			</div>
 			<div class="col-md-3 box-presentation">
 				<div class="icon-presentation">
-					<i class="<?= $theme_config['icon3'] ?>"></i>
+					<i class="<?= $theme_config['icon-2'] ?>"></i>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sapiente voluptatibus, repudiandae ducimus. Voluptates aliquam nostrum quia architecto delectus quae.</p>
+				<p><?= $theme_config['desc-2'] ?></p>
 			</div>
 			<div class="col-md-3 box-presentation">
 				<div class="icon-presentation">
-					<i class="<?= $theme_config['icon4'] ?>"></i>
+					<i class="<?= $theme_config['icon-3'] ?>"></i>
 				</div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat sapiente voluptatibus, repudiandae ducimus. Voluptates aliquam nostrum quia architecto delectus quae.</p>
+				<p><?= $theme_config['desc-3'] ?></p>
 			</div>
 		</div>
 	</div>

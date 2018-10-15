@@ -15,6 +15,10 @@
                                         <input type="text" class="form-control" name="bg" value="<?= $config['bg'] ?>">
                                     </div>
                                     <div class="form-group">
+                                        <label>URL du Favicon</label>
+                                        <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
+                                    </div>
+                                    <div class="form-group">
                                         <label>Nom du site</label>
                                         <input type="text" class="form-control" name="name_site" value="<?= $config['name_site'] ?>">
                                     </div>
@@ -35,22 +39,27 @@
                                         <input type="text" class="form-control" name="discord" value="<?= $config['discord'] ?>">
                                     </div>										
                                 </div>
-                                                               <div class="col-md-6">
+                                <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Présentation 1</label>
-                                        <input type="text" class="form-control" name="icon1" value="<?= $config['icon1'] ?>" placeholder="fa fa-">
+                                        <p>Icon : Font Awesome 4.7</p>
+                                        <input type="text" class="form-control" name="icon-1" value="<?= $config['icon-1'] ?>" placeholder="fa fa-">
+                                        <p>Texte</p>
+                                        <input type="text" class="form-control" name="desc-1" value="<?= $config['desc-1'] ?>" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label>Présentation 2</label>
-                                        <input type="text" class="form-control" name="icon2" value="<?= $config['icon2'] ?>" placeholder="fa fa-">
+                                        <p>Icon : Font Awesome 4.7</p>
+                                        <input type="text" class="form-control" name="icon-2" value="<?= $config['icon-2'] ?>" placeholder="fa fa-">
+                                        <p>Texte</p>
+                                        <input type="text" class="form-control" name="desc-2" value="<?= $config['desc-2'] ?>" placeholder="">
                                     </div>
                                     <div class="form-group">
                                         <label>Présentation 3</label>
-                                        <input type="text" class="form-control" name="icon3" value="<?= $config['icon3'] ?>" placeholder="fa fa-">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Présentation 4</label>
-                                        <input type="text" class="form-control" name="icon4" value="<?= $config['icon4'] ?>" placeholder="fa fa-">
+                                        <p>Icon : Font Awesome 4.7</p>
+                                        <input type="text" class="form-control" name="icon-3" value="<?= $config['icon-3'] ?>" placeholder="fa fa-">
+                                        <p>Texte</p>
+                                        <input type="text" class="form-control" name="desc-3" value="<?= $config['desc-3'] ?>" placeholder="">
                                     </div>
                                 </div>
                                 <div class="col-md-12">

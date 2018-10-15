@@ -21,9 +21,8 @@
     <?= $this->Html->css('style.css') ?>
 
     <?= $this->Html->script('jquery-1.11.0.js') ?>
-
+    <link rel="icon" type="image/png" href="<?= (isset($theme_config) && isset($theme_config['favicon_url'])) ? $theme_config['favicon_url'] : '' ?>" />
     <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="icon" type="image/png" href="../theme/Modern/img/logo.png" />
 
 </head>
 <body>
