@@ -15,7 +15,7 @@
 			<?php if(!$isConnected) { ?>
 			<div class="alert alert-danger"><?= $Lang->get('SHOP__BUY_ERROR_NEED_LOGIN') ?></div>
 			<?php } else { ?>
-			<a href="#" class="btn btn-warning btn-block btn-sm text-uppercase">ACTUELLEMENT: <?= $money ?> <?= $Configuration->getMoneyName(); ?></a>
+			<a href="#" class="btn btn-warning btn-block btn-sm text-uppercase">ACTUELLEMENT: <?= $money; ?></a>
 			<a href="#" class="btn btn-warning btn-block btn-sm text-uppercase" data-toggle="modal" data-target="#addmoney"><i class="fa fa-plus"></i> <?= $Lang->get('SHOP__ADD_MONEY') ?></a>
 			<a href="#" class="btn btn-danger btn-block btn-sm text-uppercase" data-toggle="modal" data-target="#cart-modal"><?= $Lang->get('SHOP__BUY_CART') ?></a>
 			<?php } ?>
