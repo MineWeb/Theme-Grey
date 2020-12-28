@@ -15,10 +15,6 @@
                                         <input type="text" class="form-control" name="bg" value="<?= $config['bg'] ?>">
                                     </div>
                                     <div class="form-group">
-                                        <label>URL du Favicon</label>
-                                        <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
-                                    </div>
-                                    <div class="form-group">
                                         <label>Nom du site</label>
                                         <input type="text" class="form-control" name="name_site" value="<?= $config['name_site'] ?>">
                                     </div>
