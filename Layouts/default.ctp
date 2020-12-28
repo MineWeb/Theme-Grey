@@ -4,8 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="<?= $theme_config['desc_site'] ?>">
     <meta name="author" content="Mineweb">
+
+    <title><?= $seo_config['title'] ?></title>
+    <link rel="icon" type="image/png" href="<?= $seo_config['favicon_url'] ?>"/>
+    <meta name="title" content="<?= $seo_config['title'] ?>">
+    <meta property="og:title" content="<?= $seo_config['title'] ?>">
+    <meta name="description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:description" content="<?= $seo_config['description'] ?>">
+    <meta property="og:image" content="<?= $seo_config['img_url'] ?>">
 	
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:image" content="<?= $theme_config['image_site'] ?>"/>
@@ -14,14 +21,12 @@
     <meta name="twitter:title" content="<?= $theme_config['name_site'] ?>"/>
     <meta name="twitter:description" content="<?= $theme_config['desc_site'] ?>"/>
 
-    <title><?= $title_for_layout ?> - <?= $theme_config['name_site'] ?></title>
 
     <?= $this->Html->css('bootstrap.min.css') ?>
     <?= $this->Html->css('font-awesome.min.css') ?>
     <?= $this->Html->css('style.css') ?>
 
     <?= $this->Html->script('jquery-1.11.0.js') ?>
-    <link rel="icon" type="image/png" href="<?= (isset($theme_config) && isset($theme_config['favicon_url'])) ? $theme_config['favicon_url'] : '' ?>" />
     <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
 </head>
