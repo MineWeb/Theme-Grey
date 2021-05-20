@@ -4,7 +4,7 @@
             <div class="col-md-12">
                 <div class="nav-tabs-custom">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a href="#tab_accueil" data-toggle="tab">Accueil</a></li>
+                        <li class="active"><a class="nav-link text-dark" href="#tab_accueil" data-toggle="tab">Accueil</a></li>
                     </ul>
                     <div class="tab-content" style="padding: 15px;">
                         <div class="tab-pane active" id="tab_accueil">
@@ -13,10 +13,6 @@
                                     <div class="form-group">
                                         <label>URL du background</label>
                                         <input type="text" class="form-control" name="bg" value="<?= $config['bg'] ?>">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>URL du Favicon</label>
-                                        <input type="text" class="form-control" name="favicon_url" value="<?= $config['favicon_url'] ?>">
                                     </div>
                                     <div class="form-group">
                                         <label>Nom du site</label>
